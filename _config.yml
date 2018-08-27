@@ -1,43 +1,30 @@
-# ╔════════════════════════════════════════════════════════════════════════════╗
-# ║ This file is only read once per server start. Restart server when changed! ║
-# ╚════════════════════════════════════════════════════════════════════════════╝
-
 # Site settings
-# ─────────────
-baseurl: /1718-BaP # the subpath of your site, e.g. /blog
-# baseurl: /
-# host   : 127.0.0.1
-# port   : 4000
+title: HUISSTIJLGIDS
+email: your-email@domain.com
+url:  https://gdmgent-1718-3cmo.github.io/1718-3CMO-BaP-julidecl1/
+description: "ENKELE GUIDLINES VOOR ZOWEL DE OFFLINE <br>ALS ONLINE COMMUNICATIE"
 
-# Custom Site variables
-# ─────────────────────
-title: 1718 BaP CMO
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#ffffff'
+  links: '#e8424f'
+
+# Footer settings
+footer: Julie De Clercq
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
 
 # Build settings
-# ──────────────
-defaults:
-  -
-#    scope:
-#      path: "style-guide"
-    values:
-      layout: vertical
-
-exclude:
-  - Gemfile
-  - README.md
-
-plugins:
-# - jekyll-feed
-# - jekyll-gist
-# - jekyll-mentions
-# - jekyll-paginate
-# - jekyll-redirect-from
-# - jekyll-seo-tag
-# - jekyll-sitemap
-# - jemoji
-
-sass:
-  style: nested
-#  style: expanded
-#  style: compact
-#  style: compressed
+markdown: kramdown
+permalink: pretty
